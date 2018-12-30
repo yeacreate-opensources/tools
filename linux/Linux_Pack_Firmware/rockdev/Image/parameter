@@ -1,0 +1,15 @@
+FIRMWARE_VER:1.0
+MACHINE_MODEL:RK3288
+MACHINE_ID:007
+MANUFACTURER:rk3288
+MAGIC: 0x5041524B
+ATAG: 0x00200800
+MACHINE: 3288
+CHECK_MASK: 0x80
+PWR_HLD: 0,0,A,0,1
+
+#KERNEL_IMG: 0x62008000
+#FDT_NAME: rk-kernel.dtb
+#RECOVER_KEY: 1,1,0,20,0
+#in section; per section 512(0x200) bytes
+CMDLINE:console=ttyS2,115200 root=/dev/mmcblk1p6 linuxroot rw rootfstype=ext4 init=/sbin/init fbcon=rotate:0 fb0=rotate:1 initrd=0x62000000,0x00800000  mtdparts=rk29xxnand:0x00002000@0x00002000(uboot),0x00002000@0x00004000(trust),0x00010000@0x00006000(boot),0x00200000@0x00016000(swap),0x00600000@0x0216000(home),-@0x00816000(linuxroot)

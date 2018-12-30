@@ -15,7 +15,7 @@ if [ ! -f "package-file" ]; then
 	exit 1
 fi
 ./afptool -pack ./ Image/update.img || pause
-./rkImageMaker -RK312A Image/MiniLoaderAll.bin Image/update.img update.img -os_type:androidos || pause
+./rkImageMaker -RK320A Image/rk3288_loader_v1.06.236.bin Image/update.img update.img -os_type:androidos || pause
 echo "Making update.img OK."
 #echo "Press any key to quit:"
 #read -n1 -s key

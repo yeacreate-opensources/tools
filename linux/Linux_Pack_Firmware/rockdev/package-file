@@ -1,0 +1,11 @@
+﻿package-file	package-file
+bootloader		Image/rk3288_loader_v1.06.236.bin	
+parameter		Image/parameter
+uboot			Image/uboot.img
+trust			Image/trust.img
+boot			Image/linux-boot.img
+home			Image/home.img
+linuxroot   	Image/disk.img
+backup			RESERVED
+#update-script	update-script
+#recover-script	recover-script

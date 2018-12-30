@@ -14,9 +14,4 @@
 *.rej
 *~
 *.pyc
-linux/Linux_Pack_Firmware/rockdev/mkupdate.sh
-linux/Linux_Pack_Firmware/rockdev/package-file
-windows/AndroidTool/AndroidTool_Release/config.cfg
-windows/AndroidTool/rockdev/mkupdate.bat
-windows/AndroidTool/rockdev/package-file
-linux/Linux_Pack_Firmware/rockdev/update.img
+*.img

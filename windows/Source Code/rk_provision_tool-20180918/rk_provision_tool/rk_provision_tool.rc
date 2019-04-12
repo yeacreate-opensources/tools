@@ -1,0 +1,371 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\rk_provision_tool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\rk_provision_tool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_SETTINGS DIALOGEX 0, 0, 333, 232
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,179,209,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,245,209,50,14
+    CONTROL         "",IDC_TAB_ITEM,"SysTabControl32",0x0,22,7,235,176
+    CHECKBOX        "maskrom",IDC_CHECK_FORCE_MASKROM,7,190,44,10
+    EDITTEXT        IDC_EDIT_MASKROM,55,188,269,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "compat",IDC_CHECK_COMPAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,17,54,10
+    CONTROL         "Reboot",IDC_CHECK_REBOOT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,37,54,10
+    COMBOBOX        IDC_COMBO_LAN,270,154,54,30,CBS_DROPDOWN | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Language",IDC_STATIC_LAN,270,130,32,8,NOT WS_VISIBLE
+    CONTROL         "RPMB",IDC_CHECK_RPMB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,55,34,10
+    CONTROL         "Lock",IDC_CHECK_LOCK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,173,30,10
+END
+
+IDD_ITEM_CMN DIALOGEX 0, 0, 262, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "起始",IDC_STATIC_START,18,37,37,8
+    LTEXT           "计数",IDC_STATIC_COUNT,18,108,37,8
+    LTEXT           "当前",IDC_STATIC_CURRENT,18,87,37,8
+    LTEXT           "剩余",IDC_STATIC_LEFT,114,108,36,8
+    EDITTEXT        IDC_EDIT_START,61,34,143,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CURRENT,61,84,143,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_LEFT,156,105,48,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_COUNT,61,105,47,14,ES_AUTOHSCROLL
+    LTEXT           "前缀",IDC_STATIC_PREFIX,18,61,17,8
+    LTEXT           "后缀",IDC_STATIC_SUFFIX,114,61,36,8
+    EDITTEXT        IDC_EDIT_PREFIX,61,58,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SUFFIX,156,58,48,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_TYPE,61,10,47,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "自动",IDC_STATIC_AUDO,12,27,198,98
+    EDITTEXT        IDC_EDIT_ID,156,9,48,14,ES_AUTOHSCROLL
+    CONTROL         "选择",IDC_CHECK_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,11,37,10
+    GROUPBOX        "配置文件",IDC_STATIC_FILE,12,130,198,32
+    EDITTEXT        IDC_EDIT_FILE,18,139,186,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        VERTGUIDE, 270
+        VERTGUIDE, 324
+        TOPMARGIN, 7
+        HORZGUIDE, 195
+        HORZGUIDE, 216
+    END
+
+    IDD_ITEM_CMN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 243
+        VERTGUIDE, 12
+        VERTGUIDE, 18
+        VERTGUIDE, 55
+        VERTGUIDE, 61
+        VERTGUIDE, 108
+        VERTGUIDE, 114
+        VERTGUIDE, 150
+        VERTGUIDE, 156
+        VERTGUIDE, 204
+        VERTGUIDE, 210
+        BOTTOMMARGIN, 175
+        HORZGUIDE, 16
+        HORZGUIDE, 41
+        HORZGUIDE, 65
+        HORZGUIDE, 91
+        HORZGUIDE, 112
+        HORZGUIDE, 125
+        HORZGUIDE, 146
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    MENUITEM "设置",                          ID_MENU_SETTINGS
+    MENUITEM "日志文件",                        ID_MENU_LOG
+    MENUITEM "关于",                          ID_MENU_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_DLGITEMCMN     HTML                    "DlgItemCmn.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_GREEN        BITMAP                  "res\\green_led.bmp"
+IDB_BITMAP_RED          BITMAP                  "res\\red_led.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About rk_provision_tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "rk_provision_tool, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_RK_PROVISION_TOOL_DIALOG DIALOGEX 0, 0, 373, 305
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "rk_provision_tool"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "SN:",IDC_STATIC_SN,30,37,26,8
+    LTEXT           "WIFI:",IDC_STATIC_WIFI,30,56,20,8
+    LTEXT           "LAN:",IDC_STATIC_LAN,30,72,16,8
+    LTEXT           "BT:",IDC_STATIC_BT,30,90,12,8
+    LTEXT           "IMEI:",IDC_STATIC_IMEI,30,110,18,8
+    EDITTEXT        IDC_EDIT_SN,87,34,132,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WIFI,87,53,132,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LAN,87,69,132,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BT,87,87,132,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IMEI,87,107,132,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_RESULT,7,154,359,130,LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Read",IDC_BUTTON_READ,270,87,96,14
+    PUSHBUTTON      "Write",IDC_BUTTON_WRITE,270,107,96,14
+    CONTROL         "",IDC_CHECK_SN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,36,16,10
+    CONTROL         "",IDC_CHECK_WIFI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,55,16,10
+    CONTROL         "",IDC_CHECK_IMEI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,109,16,10
+    CONTROL         "",IDC_CHECK_BT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,89,16,10
+    CONTROL         "",IDC_CHECK_LAN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,71,16,10
+    CONTROL         "Single",IDC_CHECK_SINGLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,270,71,73,10
+    LTEXT           "Static",IDC_STATIC_DEVICES,131,290,119,9
+    CONTROL         "",IDC_PICTURE_DEVICE,"Static",SS_BLACKFRAME,283,7,66,53
+    EDITTEXT        IDC_EDIT_LOADER,87,127,228,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "LOADER:",IDC_STATIC_LOADER,30,130,30,8
+    CHECKBOX        "Loader",IDC_CHECK_LOADER,149,7,38,10,NOT WS_VISIBLE
+    PUSHBUTTON      "Test",IDC_BUTTON_TEST,219,7,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "...",IDC_BUTTON_BROW_LOADER,321,127,23,14
+    PUSHBUTTON      "Reboot",IDC_BUTTON_REBOOT,87,7,50,14,NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_RK_PROVISION_TOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 366
+        VERTGUIDE, 30
+        VERTGUIDE, 87
+        VERTGUIDE, 219
+        VERTGUIDE, 227
+        VERTGUIDE, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+        HORZGUIDE, 41
+        HORZGUIDE, 60
+        HORZGUIDE, 76
+        HORZGUIDE, 94
+        HORZGUIDE, 114
+        HORZGUIDE, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "rk_provision_tool.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "rk_provision_tool.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About rk_provision_tool..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\rk_provision_tool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

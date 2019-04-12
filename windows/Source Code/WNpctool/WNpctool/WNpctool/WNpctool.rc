@@ -1,0 +1,435 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\WNpctool.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_WNFRAME             ICON                    "res\\krfb.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 WNpctool"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+    LTEXT           "WNpctool，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_WNPCTOOL_DIALOG DIALOGEX 0, 0, 328, 287
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "WNpctool"
+MENU IDR_MAINMENU
+FONT 12, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Write",ID_BTN_WRITE,254,64,54,41
+    LTEXT           "SN:",IDC_STATIC_SN,14,15,35,8
+    LTEXT           "WIFIMAC:",IDC_STATIC_WIFIMAC,14,32,36,8
+    LTEXT           "LANMAC:",IDC_STATIC_LANMAC,14,50,35,8
+    LTEXT           "BTMAC:",IDC_STATIC_BTMAC,14,68,35,8
+    EDITTEXT        IDC_EDIT_SN,52,12,190,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WIFIMAC,52,30,190,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LANMAC,52,48,190,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BTMAC,52,66,190,14,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC_STATUS,12,133,232,22
+    CTEXT           "Not Found rockusb",IDC_LABEL_DEVICE,21,269,281,8
+    CONTROL         "",IDC_PICTURE_DEVICE,"Static",SS_BLACKFRAME,254,14,53,48
+    LISTBOX         IDC_LIST_REPORT,10,158,307,109,LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Loader",IDC_BUTTON_LOADER,14,103,30,14
+    EDITTEXT        IDC_EDIT_LOADER,52,103,190,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "IMEI:",IDC_STATIC_IMEI,14,86,35,8
+    EDITTEXT        IDC_EDIT_IMEI,52,85,190,14,ES_AUTOHSCROLL
+    LTEXT           "成功:",IDC_STATIC_SUCCESS,251,115,17,8
+    LTEXT           "失败:",IDC_STATIC_FAIL,251,131,17,8
+    LTEXT           "0",IDC_STATIC_SUCCESS_COUNT,277,115,24,8
+    LTEXT           "0",IDC_STATIC_FAIL_COUNT,277,131,31,8
+    LTEXT           "总共:",IDC_STATIC_TOTAL,251,147,17,8
+    LTEXT           "0",IDC_STATIC_TOTAL_COUNT,277,147,33,8
+    LTEXT           "OEMLOCK",IDC_STATIC_OEM,13,123,36,8
+    CONTROL         "LOCK",IDC_CHECK_OEM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,53,122,35,10
+END
+
+IDD_DIALOG_MODE DIALOGEX 0, 0, 333, 255
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mode"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BTN_MODE_OK,172,232,50,16
+    PUSHBUTTON      "Cancel",IDC_BTN_MODE_CANCEL,224,232,50,16
+    CONTROL         "",IDC_TAB_SNMAC,"SysTabControl32",0x0,9,15,312,213,WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "APPLY",IDC_BTN_MODE_APPLY,276,232,50,16
+END
+
+IDD_DIALOG_SN DIALOGEX 0, 0, 316, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "select",IDC_CHECK_SN_SELECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,11,35,10
+    GROUPBOX        "Config",IDC_STATIC_SN,18,26,267,167
+    CONTROL         "Input/Scan",IDC_RADIO_MANUAL_DEVSN,"Button",BS_AUTORADIOBUTTON,32,42,51,10
+    CONTROL         "Auto",IDC_RADIO_AUTO_DEVSN,"Button",BS_AUTORADIOBUTTON,135,42,31,10
+    CONTROL         "File",IDC_RADIO_FILE_SN,"Button",BS_AUTORADIOBUTTON,229,42,27,10
+    LTEXT           "SNPrefix:",IDC_LABEL_SN_PREFIX,31,65,30,8
+    EDITTEXT        IDC_EDIT_DEVSN_PREFIX,63,63,50,14,ES_AUTOHSCROLL
+    LTEXT           "SNSuffix:",IDC_LABEL_SN_PREFIX2,123,65,29,8
+    EDITTEXT        IDC_EDIT_DEVSN_SUFFIX,156,63,51,14,ES_AUTOHSCROLL
+    LTEXT           "Start:",IDC_LABEL_SN_SEGMENT_START,37,88,30,8
+    EDITTEXT        IDC_EDIT_DEVSN_SEGMENT_START,77,85,187,14,ES_AUTOHSCROLL
+    LTEXT           "Current:",IDC_LABEL_SN_SEGMENT_CURRENT,37,111,34,8
+    EDITTEXT        IDC_EDIT_DEVSN_SEGMENT_CURRENT,77,108,188,14,ES_AUTOHSCROLL
+    LTEXT           "End:",IDC_LABEL_SN_SEGMENT_END,37,133,34,8
+    EDITTEXT        IDC_EDIT_DEVSN_SEGMENT_END,77,130,187,14,ES_AUTOHSCROLL
+    LTEXT           "count:",IDC_LABEL_SN_SEGMENT_COUNT,37,153,40,8
+    EDITTEXT        IDC_EDIT_DEVSN_SEGMENT_COUNT,77,150,187,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "File Path:",IDC_LABEL_DEVSN_FILE_PATH,37,173,31,8
+    EDITTEXT        IDC_EDIT_DEVSN_FILE_PATH,77,170,176,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_DEVSN_FILE_PATH,253,170,15,14
+    LTEXT           "长度:",IDC_LABEL_SN_LEN,216,65,24,8
+    EDITTEXT        IDC_EDIT_DEVSN_LEN,246,63,23,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_DIALOG_WIFIMAC DIALOGEX 0, 0, 316, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "select",IDC_CHECK_WIFIMAC_SELECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,11,35,10
+    GROUPBOX        "Config",IDC_STATIC_WIFIMAC,20,26,267,167
+    CONTROL         "Input/Scan",IDC_RADIO_MANUAL_WIFIMAC,"Button",BS_AUTORADIOBUTTON,34,42,51,10
+    CONTROL         "Auto",IDC_RADIO_AUTO_WIFIMAC,"Button",BS_AUTORADIOBUTTON,142,42,31,10
+    CONTROL         "File",IDC_RADIO_FILE_WIFIMAC,"Button",BS_AUTORADIOBUTTON,231,42,27,10
+    LTEXT           "Start:",IDC_LABEL_WIFIMAC_SEGMENT_START,39,79,37,8
+    EDITTEXT        IDC_EDIT_WIFIMAC_SEGMENT_START,79,76,187,14,ES_AUTOHSCROLL
+    LTEXT           "Current:",IDC_LABEL_WIFIMAC_SEGMENT_CURRENT,39,102,36,8
+    EDITTEXT        IDC_EDIT_WIFIMAC_SEGMENT_CURRENT,79,99,188,14,ES_AUTOHSCROLL
+    LTEXT           "End:",IDC_LABEL_WIFIMAC_SEGMENT_END,39,124,38,8
+    EDITTEXT        IDC_EDIT_WIFIMAC_SEGMENT_END,79,121,187,14,ES_AUTOHSCROLL
+    LTEXT           "Count:",IDC_LABEL_WIFIMAC_SEGMENT_COUNT,39,144,36,8
+    EDITTEXT        IDC_EDIT_WIFIMAC_SEGMENT_COUNT,79,141,187,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "File Path:",IDC_LABEL_WIFIMAC_FILE_PATH,39,164,39,8
+    EDITTEXT        IDC_EDIT_WIFIMAC_FILE_PATH,79,161,176,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_WIFIMAC_FILE_PATH,255,161,15,14
+END
+
+IDD_DIALOG_LANMAC DIALOGEX 0, 0, 316, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "select",IDC_CHECK_LANMAC_SELECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,14,35,10
+    GROUPBOX        "Config",IDC_STATIC_LANMAC,16,29,267,167
+    CONTROL         "Input/Scan",IDC_RADIO_MANUAL_LANMAC,"Button",BS_AUTORADIOBUTTON,30,45,51,10
+    CONTROL         "Auto",IDC_RADIO_AUTO_LANMAC,"Button",BS_AUTORADIOBUTTON,138,45,31,10
+    CONTROL         "File",IDC_RADIO_FILE_LANMAC,"Button",BS_AUTORADIOBUTTON,227,45,27,10
+    LTEXT           "Start:",IDC_LABEL_LANMAC_SEGMENT_START,35,80,32,8
+    EDITTEXT        IDC_EDIT_LANMAC_SEGMENT_START,75,77,187,14,ES_AUTOHSCROLL
+    LTEXT           "Current:",IDC_LABEL_LANMAC_SEGMENT_CURRENT,35,103,34,8
+    EDITTEXT        IDC_EDIT_LANMAC_SEGMENT_CURRENT,75,100,188,14,ES_AUTOHSCROLL
+    LTEXT           "End:",IDC_LABEL_LANMAC_SEGMENT_END,35,125,33,8
+    EDITTEXT        IDC_EDIT_LANMAC_SEGMENT_END,75,122,187,14,ES_AUTOHSCROLL
+    LTEXT           "Count:",IDC_LABEL_LANMAC_SEGMENT_COUNT,35,145,40,8
+    EDITTEXT        IDC_EDIT_LANMAC_SEGMENT_COUNT,75,142,187,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "File Path:",IDC_LABEL_LANMAC_FILE_PATH,35,165,31,8
+    EDITTEXT        IDC_EDIT_LANMAC_FILE_PATH,75,162,176,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_LANMAC_FILE_PATH,251,162,15,14
+END
+
+IDD_DIALOG_BTMAC DIALOGEX 0, 0, 316, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "select",IDC_CHECK_BTMAC_SELECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,13,35,10
+    GROUPBOX        "Config",IDC_STATIC_BTMAC,19,28,267,167
+    CONTROL         "Input/Scan",IDC_RADIO_MANUAL_BTMAC,"Button",BS_AUTORADIOBUTTON,33,44,51,10
+    CONTROL         "Auto",IDC_RADIO_AUTO_BTMAC,"Button",BS_AUTORADIOBUTTON,141,44,31,10
+    CONTROL         "File",IDC_RADIO_FILE_BTMAC,"Button",BS_AUTORADIOBUTTON,230,44,27,10
+    LTEXT           "Start:",IDC_LABEL_BTMAC_SEGMENT_START,38,77,33,8
+    EDITTEXT        IDC_EDIT_BTMAC_SEGMENT_START,78,74,187,14,ES_AUTOHSCROLL
+    LTEXT           "Current:",IDC_LABEL_LANMAC_SEGMENT_CURRENT,38,100,34,8
+    EDITTEXT        IDC_EDIT_BTMAC_SEGMENT_CURRENT,78,97,188,14,ES_AUTOHSCROLL
+    LTEXT           "End:",IDC_LABEL_BTMAC_SEGMENT_END,38,122,35,8
+    EDITTEXT        IDC_EDIT_BTMAC_SEGMENT_END,78,119,187,14,ES_AUTOHSCROLL
+    LTEXT           "Count:",IDC_LABEL_BTMAC_SEGMENT_COUNT,38,142,40,8
+    EDITTEXT        IDC_EDIT_BTMAC_SEGMENT_COUNT,78,139,187,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "File Path:",IDC_LABEL_BTMAC_FILE_PATH,38,162,31,8
+    EDITTEXT        IDC_EDIT_BTMAC_FILE_PATH,78,159,176,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_BTMAC_FILE_PATH,254,159,15,14
+END
+
+IDD_DIALOG_IMEI DIALOGEX 0, 0, 316, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "select",IDC_CHECK_IMEI_SELECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,11,35,10
+    GROUPBOX        "Config",IDC_STATIC_IMEI,20,26,267,167
+    CONTROL         "Input/Scan",IDC_RADIO_MANUAL_IMEI,"Button",BS_AUTORADIOBUTTON,34,42,51,10
+    CONTROL         "Auto",IDC_RADIO_AUTO_IMEI,"Button",BS_AUTORADIOBUTTON,142,42,31,10
+    CONTROL         "File",IDC_RADIO_FILE_IMEI,"Button",BS_AUTORADIOBUTTON,231,42,27,10
+    LTEXT           "Start:",IDC_LABEL_IMEI_SEGMENT_START,39,79,37,8
+    EDITTEXT        IDC_EDIT_IMEI_SEGMENT_START,79,76,187,14,ES_AUTOHSCROLL
+    LTEXT           "Current:",IDC_LABEL_IMEI_SEGMENT_CURRENT,39,102,36,8
+    EDITTEXT        IDC_EDIT_IMEI_SEGMENT_CURRENT,79,99,188,14,ES_AUTOHSCROLL
+    LTEXT           "End:",IDC_LABEL_IMEI_SEGMENT_END,39,124,38,8
+    EDITTEXT        IDC_EDIT_IMEI_SEGMENT_END,79,121,187,14,ES_AUTOHSCROLL
+    LTEXT           "Count:",IDC_LABEL_IMEI_SEGMENT_COUNT,39,144,36,8
+    EDITTEXT        IDC_EDIT_IMEI_SEGMENT_COUNT,79,141,187,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "File Path:",IDC_LABEL_IMEI_FILE_PATH,39,164,39,8
+    EDITTEXT        IDC_EDIT_IMEI_FILE_PATH,79,161,176,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_IMEI_FILE_PATH,255,161,15,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,9,0
+ PRODUCTVERSION 1,1,9,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.1.9.0"
+            VALUE "InternalName", "WNpctool.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "WNpctool.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.1.9.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_WNPCTOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 321
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_DIALOG_MODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_DIALOG_SN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_DIALOG_WIFIMAC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_DIALOG_LANMAC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_DIALOG_BTMAC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_DIALOG_IMEI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "Setting"
+    BEGIN
+        MENUITEM "Mode",                        ID_SETTING_MODE
+        MENUITEM "Read",                        ID_SETTING_READ
+        MENUITEM "Auto",                        ID_SETTING_AUTO
+        MENUITEM "Reset",                       ID_SETTING_RESET
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Folder",                      ID_LOG_FOLDER
+        POPUP "Language"
+        BEGIN
+            MENUITEM "Chinese",                     ID_LANGUAGE_CHINESE
+            MENUITEM "English",                     ID_LANGUAGE_ENGLISH
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_GREENLED        BITMAP                  "res\\green_led.bmp"
+IDB_BMP_REDLED          BITMAP                  "res\\red_led.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 WNpctool(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\WNpctool.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

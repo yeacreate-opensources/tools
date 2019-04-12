@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RKUpgradeDllTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\seth\AppData\Local\Temp\RSP5DC1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MSCB" /D "_UNICODE" /D "UNICODE" /FR"Debug/" /Fp"Debug/RKUpgradeDllTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\文件系统组计划\RKUpgradeLibrary\TS_Dll_Src\RKUpgradeDllTest\RKUpgradeDllTestDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\seth\AppData\Local\Temp\RSP5DC1.tmp" 
+Creating temporary file "C:\Users\seth\AppData\Local\Temp\RSP5DD2.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"Debug/RKUpgradeDllTest.pdb" /debug /machine:I386 /out:"bin/RKUpgradeDllTest.exe" /pdbtype:sept 
+".\Debug\RKUpgradeDllTest.obj"
+".\Debug\RKUpgradeDllTestDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\RKUpgradeDllTest.res"
+]
+Creating command line "link.exe @C:\Users\seth\AppData\Local\Temp\RSP5DD2.tmp"
+<h3>Output Window</h3>
+Compiling...
+RKUpgradeDllTestDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+RKUpgradeDllTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

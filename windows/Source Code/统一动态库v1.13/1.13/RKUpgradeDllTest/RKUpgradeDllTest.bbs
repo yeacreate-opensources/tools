@@ -1,0 +1,3 @@
+[Batch Build]
+RKUpgradeDllTest - Win32 Debug=1
+RKUpgradeDllTest - Win32 Release=1

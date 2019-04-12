@@ -1,0 +1,191 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DllToolSample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DllToolSample.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLLTOOLSAMPLE_DIALOG DIALOGEX 0, 0, 335, 263
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "序列号:",IDC_STATIC_SN,13,24,39,13
+    EDITTEXT        IDC_EDT_SN,67,21,195,19,ES_AUTOHSCROLL
+    LTEXT           "网卡地址:",IDC_STATIC_MAC,13,54,39,13
+    EDITTEXT        IDC_EDT_MAC,67,52,195,19,ES_AUTOHSCROLL
+    LTEXT           "蓝牙地址:",IDC_STATIC_BT,13,86,39,13
+    EDITTEXT        IDC_EDT_BT,67,83,195,19,ES_AUTOHSCROLL
+    LTEXT           "IMEI:",IDC_STATIC_IMEI,13,118,39,13
+    EDITTEXT        IDC_EDT_IMEI,67,114,195,19,ES_AUTOHSCROLL
+    PUSHBUTTON      "写入",IDC_BTN_SN_WRITE,270,21,34,18
+    PUSHBUTTON      "写入",IDC_BTN_MAC_WRITE,270,51,34,18
+    PUSHBUTTON      "写入",IDC_BTN_BT_WRITE,270,81,34,18
+    PUSHBUTTON      "写入",IDC_BTN_IMEI_WRITE,270,111,34,18
+    PUSHBUTTON      "写入",IDC_BTN_ALL_WRITE,270,144,34,18
+    LTEXT           "全部:",IDC_STATIC_ALL,13,149,39,13
+    CONTROL         "序列号",IDC_CHK_SN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,147,40,13
+    CONTROL         "网卡地址",IDC_CHK_MAC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,115,147,46,13
+    CONTROL         "蓝牙地址",IDC_CHK_BT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,147,46,13
+    CONTROL         "IMEI",IDC_CHK_IMEI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,219,147,40,13
+    LTEXT           "自定义文件:",IDC_STATIC_CUSTOM,13,177,125,13
+    EDITTEXT        IDC_EDT_CUSTOM_FILE,152,172,110,19,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",IDC_BTN_CUSTOM_BROWSE,270,172,34,18
+    LTEXT           "自定义偏移:",IDC_STATIC_OFFSET,13,206,132,13
+    EDITTEXT        IDC_EDT_CUSTOM_OFFSET,152,202,40,19,ES_AUTOHSCROLL
+    PUSHBUTTON      "写入",IDC_BTN_CUSTOM_WRITE,220,202,34,18
+    LTEXT           "",IDC_STATIC_DEVICE,67,232,199,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "DllToolSample"
+            VALUE "FileVersion", "1, 1, 0, 0"
+            VALUE "InternalName", "DllToolSample"
+            VALUE "LegalCopyright", "Copyright by rockchip"
+            VALUE "OriginalFilename", "DllToolSample.EXE"
+            VALUE "ProductName", "DllToolSample"
+            VALUE "ProductVersion", "1, 1, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLLTOOLSAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DllToolSample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -7,13 +7,13 @@ print "Do NOT remove SD card form the device\n\n"
 write_image PACKAGE:linuxroot LINUXROOT:
 check_image PACKAGE:linuxroot LINUXROOT:
 
-# 升级boot
+# 升级home
 write_image PACKAGE:home HOME:
 check_image PACKAGE:home HOME:
 
 # 升级boot
-write_image PACKAGE:boot BOOT:
-check_image PACKAGE:boot BOOT:
+#write_image PACKAGE:boot BOOT:
+#check_image PACKAGE:boot BOOT:
 
 # 升级trust
 write_image PACKAGE:trust TRUST:
@@ -35,7 +35,7 @@ check_image PACKAGE:parameter PARAMETER:
 write_blcmd update-bootloader
 
 # 将bootloader存放到MISC分区
-write_loader PACKAGE:bootloader MISC: 0xC000
+#write_loader PACKAGE:bootloader MISC: 0xC000
 
 # 删除升级包
 delete PACKAGE:

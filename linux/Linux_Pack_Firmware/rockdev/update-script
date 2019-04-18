@@ -23,6 +23,10 @@ check_image PACKAGE:trust TRUST:
 write_image PACKAGE:uboot UBOOT:
 check_image PACKAGE:uboot UBOOT:
 
+# Éý¼¶ resource
+write_image PACKAGE:resource RESOURCE:
+check_image PACKAGE:resource RESOURCE:
+
 # Éý¼¶parameter
 write_image PACKAGE:parameter PARAMETER:
 check_image PACKAGE:parameter PARAMETER:

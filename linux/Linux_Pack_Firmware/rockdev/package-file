@@ -1,10 +1,10 @@
 ﻿package-file	package-file
-bootloader		Image/rk3288_loader_v1.06.254.bin	
+bootloader		Image/rk3288_loader_v1.08.254.bin
 parameter		Image/parameter
 uboot			Image/uboot.img
 trust			Image/trust.img
 resource		Image/resource.img
-home			Image/home.img
+#home			Image/home.img
 linuxroot:grow  Image/disk.img
 #backup			RESERVED
 #update-script	update-script

@@ -1,0 +1,8 @@
+17:05:54 	Upgrade Tool v1.38
+
+17:05:54 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool
+17:05:54 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool/config.ini
+17:06:56 	Upgrade Tool v1.38
+
+17:06:56 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool
+17:06:56 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool/config.ini

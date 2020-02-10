@@ -1,0 +1,26 @@
+11:04:22 	Upgrade Tool v1.38
+
+11:04:22 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+11:04:22 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+11:04:27 	Test Device Start
+11:04:27 	Test Device Success
+11:04:27 	Check Chip Start
+11:04:27 	Check Chip Success
+11:04:27 	Get FlashInfo Start
+11:04:27 	<LAYER 769-2> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+11:04:27 	Get FlashInfo Success
+11:04:27 	 Prepare IDB Start
+11:04:27 	<LAYER 769-2> INFO:CS(1)		(15028MB)		(SAMSUNG)
+11:04:27 	Prepare IDB Success
+11:04:27 	Download IDB Start
+11:04:28 	Download IDB Success
+11:04:28 	Download Firmware Start
+11:04:28 	<LAYER 769-2> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+11:04:28 	<LAYER 769-2> INFO:Start download image,total=784579584,band=64,DirectLBA=1,First4Access=1,Gpt=1
+11:04:28 	<LAYER 769-2> INFO:Start to download uboot,offset=0x4000,size=4194304
+11:04:28 	<LAYER 769-2> INFO:Start to download trust,offset=0x6000,size=4194304
+11:04:28 	<LAYER 769-2> INFO:Start to download resource,offset=0x8000,size=3511808
+11:04:28 	<LAYER 769-2> INFO:Start to download linuxroot:grow,offset=0x210000,size=772644864
+11:05:03 	Download Firmware Success
+11:05:03 	Reset Device Start
+11:05:05 	Reset Device Success

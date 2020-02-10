@@ -13,5 +13,5 @@ TYPE: GPT
 #RECOVER_KEY: 1,1,0,20,0
 #in section; per section 512(0x200) bytes
 CMDLINE:
-mtdparts=rk29xxnand:0x00002000@0x00004000(uboot),0x00002000@0x00006000(trust),0x00002000@0x00008000(resource),0x00200000@0x00010000(swap),-@0x0210000(linuxroot:grow)
+mtdparts=rk29xxnand:0x00002000@0x00004000(uboot),0x00002000@0x00006000(trust),0x00002000@0x00008000(resource),0x00200000@0x00010000(swap),0x00800000@0x00210000(home)#,-@0x01010000(linuxroot:grow)
 #uuid:linuxroot=4f5c0000-0000-4d76-8000-13ed00001bf5

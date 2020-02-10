@@ -1,0 +1,166 @@
+12:00:35 	Upgrade Tool v1.38
+
+12:00:35 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+12:00:35 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+12:01:08 	Upgrade Tool v1.38
+
+12:01:08 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+12:01:08 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+12:01:08 	Test Device Start
+12:01:08 	Test Device Success
+12:01:08 	Check Chip Start
+12:01:08 	Check Chip Success
+12:01:08 	Get FlashInfo Start
+12:01:08 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+12:01:08 	Get FlashInfo Success
+12:01:08 	 Prepare IDB Start
+12:01:08 	<LAYER 257-1> INFO:CS(1)		(15028MB)		(SAMSUNG)
+12:01:08 	Prepare IDB Success
+12:01:08 	Download IDB Start
+12:01:08 	Download IDB Success
+12:01:08 	Download Firmware Start
+12:01:08 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+12:01:08 	<LAYER 257-1> INFO:Start download image,total=558790656,band=64,DirectLBA=1,First4Access=1,Gpt=1
+12:01:08 	<LAYER 257-1> INFO:Start to download uboot,offset=0x4000,size=4194304
+12:01:08 	<LAYER 257-1> INFO:Start to download trust,offset=0x6000,size=4194304
+12:01:09 	<LAYER 257-1> INFO:Start to download resource,offset=0x8000,size=3511808
+12:01:09 	<LAYER 257-1> INFO:Start to download boot,offset=0x210000,size=536870912
+12:01:34 	<LAYER 257-1> INFO:Start to download storage:grow,offset=0x310000,size=9985024
+12:01:34 	Download Firmware Success
+12:01:34 	Reset Device Start
+12:01:36 	Reset Device Success
+13:58:28 	Upgrade Tool v1.38
+
+13:58:28 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+13:58:28 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+13:58:28 	Test Device Start
+13:58:28 	Test Device Success
+13:58:28 	Check Chip Start
+13:58:28 	Check Chip Success
+13:58:28 	Get FlashInfo Start
+13:58:28 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+13:58:28 	Get FlashInfo Success
+13:58:28 	 Prepare IDB Start
+13:58:28 	<LAYER 257-1> INFO:CS(1)		(15028MB)		(SAMSUNG)
+13:58:28 	Prepare IDB Success
+13:58:28 	Download IDB Start
+13:58:28 	Download IDB Success
+13:58:28 	Download Firmware Start
+13:58:28 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+13:58:28 	<LAYER 257-1> INFO:Start download image,total=558790656,band=64,DirectLBA=1,First4Access=1,Gpt=1
+13:58:28 	<LAYER 257-1> INFO:Start to download uboot,offset=0x4000,size=4194304
+13:58:29 	<LAYER 257-1> INFO:Start to download trust,offset=0x6000,size=4194304
+13:58:29 	<LAYER 257-1> INFO:Start to download resource,offset=0x8000,size=3511808
+13:58:29 	<LAYER 257-1> INFO:Start to download boot,offset=0x210000,size=536870912
+13:58:55 	<LAYER 257-1> INFO:Start to download storage:grow,offset=0x310000,size=9985024
+13:58:56 	Download Firmware Success
+13:58:56 	Reset Device Start
+13:58:58 	Reset Device Success
+14:07:20 	Upgrade Tool v1.38
+
+14:07:20 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+14:07:20 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+14:07:20 	Test Device Start
+14:07:20 	Test Device Success
+14:07:20 	Check Chip Start
+14:07:20 	Check Chip Success
+14:07:20 	Get FlashInfo Start
+14:07:20 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:07:20 	Get FlashInfo Success
+14:07:20 	 Prepare IDB Start
+14:07:20 	<LAYER 257-1> INFO:CS(1)		(15028MB)		(SAMSUNG)
+14:07:20 	Prepare IDB Success
+14:07:20 	Download IDB Start
+14:07:20 	Download IDB Success
+14:07:20 	Download Firmware Start
+14:07:20 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:07:20 	<LAYER 257-1> INFO:Start download image,total=558790656,band=64,DirectLBA=1,First4Access=1,Gpt=1
+14:07:20 	<LAYER 257-1> INFO:Start to download uboot,offset=0x4000,size=4194304
+14:07:20 	<LAYER 257-1> INFO:Start to download trust,offset=0x6000,size=4194304
+14:07:20 	<LAYER 257-1> INFO:Start to download resource,offset=0x8000,size=3511808
+14:07:20 	<LAYER 257-1> INFO:Start to download boot,offset=0x210000,size=536870912
+14:07:47 	<LAYER 257-1> INFO:Start to download storage:grow,offset=0x310000,size=9985024
+14:07:47 	Download Firmware Success
+14:07:47 	Reset Device Start
+14:07:49 	Reset Device Success
+14:15:13 	Upgrade Tool v1.38
+
+14:15:13 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+14:15:13 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+14:15:13 	Test Device Start
+14:15:13 	Test Device Success
+14:15:13 	Check Chip Start
+14:15:13 	Check Chip Success
+14:15:13 	Get FlashInfo Start
+14:15:13 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:15:13 	Get FlashInfo Success
+14:15:13 	 Prepare IDB Start
+14:15:13 	<LAYER 257-1> INFO:CS(1)		(15028MB)		(SAMSUNG)
+14:15:13 	Prepare IDB Success
+14:15:13 	Download IDB Start
+14:15:13 	Download IDB Success
+14:15:13 	Download Firmware Start
+14:15:13 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:15:13 	<LAYER 257-1> INFO:Start download image,total=558790656,band=64,DirectLBA=1,First4Access=1,Gpt=1
+14:15:14 	<LAYER 257-1> INFO:Start to download uboot,offset=0x4000,size=4194304
+14:15:14 	<LAYER 257-1> INFO:Start to download trust,offset=0x6000,size=4194304
+14:15:14 	<LAYER 257-1> INFO:Start to download resource,offset=0x8000,size=3511808
+14:15:14 	<LAYER 257-1> INFO:Start to download boot,offset=0x210000,size=536870912
+14:15:40 	<LAYER 257-1> INFO:Start to download storage:grow,offset=0x310000,size=9985024
+14:15:41 	Download Firmware Success
+14:15:41 	Reset Device Start
+14:15:43 	Reset Device Success
+14:25:11 	Upgrade Tool v1.38
+
+14:25:11 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+14:25:11 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+14:25:11 	Test Device Start
+14:25:11 	Test Device Success
+14:25:11 	Check Chip Start
+14:25:11 	Check Chip Success
+14:25:11 	Get FlashInfo Start
+14:25:11 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:25:11 	Get FlashInfo Success
+14:25:11 	 Prepare IDB Start
+14:25:11 	<LAYER 257-1> INFO:CS(1)		(15028MB)		(SAMSUNG)
+14:25:11 	Prepare IDB Success
+14:25:11 	Download IDB Start
+14:25:11 	Download IDB Success
+14:25:11 	Download Firmware Start
+14:25:11 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:25:11 	<LAYER 257-1> INFO:Start download image,total=558790656,band=64,DirectLBA=1,First4Access=1,Gpt=1
+14:25:11 	<LAYER 257-1> INFO:Start to download uboot,offset=0x4000,size=4194304
+14:25:12 	<LAYER 257-1> INFO:Start to download trust,offset=0x6000,size=4194304
+14:25:12 	<LAYER 257-1> INFO:Start to download resource,offset=0x8000,size=3511808
+14:25:12 	<LAYER 257-1> INFO:Start to download boot,offset=0x210000,size=536870912
+14:25:38 	<LAYER 257-1> INFO:Start to download storage:grow,offset=0x310000,size=9985024
+14:25:39 	Download Firmware Success
+14:25:39 	Reset Device Start
+14:25:41 	Reset Device Success
+14:30:56 	Upgrade Tool v1.38
+
+14:30:56 	Current process in /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38
+14:30:56 	Using /home/simon/data/works/rk3288/tools/linux/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38/config.ini
+14:30:56 	Test Device Start
+14:30:56 	Test Device Success
+14:30:56 	Check Chip Start
+14:30:56 	Check Chip Success
+14:30:56 	Get FlashInfo Start
+14:30:56 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:30:56 	Get FlashInfo Success
+14:30:56 	 Prepare IDB Start
+14:30:56 	<LAYER 257-1> INFO:CS(1)		(15028MB)		(SAMSUNG)
+14:30:56 	Prepare IDB Success
+14:30:56 	Download IDB Start
+14:30:56 	Download IDB Success
+14:30:56 	Download Firmware Start
+14:30:56 	<LAYER 257-1> INFO:FlashInfo: 0 A0 D5 1 0 4 4 0 28 0 1
+14:30:56 	<LAYER 257-1> INFO:Start download image,total=558790656,band=64,DirectLBA=1,First4Access=1,Gpt=1
+14:30:56 	<LAYER 257-1> INFO:Start to download uboot,offset=0x4000,size=4194304
+14:30:56 	<LAYER 257-1> INFO:Start to download trust,offset=0x6000,size=4194304
+14:30:57 	<LAYER 257-1> INFO:Start to download resource,offset=0x8000,size=3511808
+14:30:57 	<LAYER 257-1> INFO:Start to download boot,offset=0x210000,size=536870912
+14:31:23 	<LAYER 257-1> INFO:Start to download storage:grow,offset=0x310000,size=9985024
+14:31:23 	Download Firmware Success
+14:31:23 	Reset Device Start
+14:31:25 	Reset Device Success

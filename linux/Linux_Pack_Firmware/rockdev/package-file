@@ -4,9 +4,9 @@ parameter		Image/parameter
 uboot			Image/uboot.img
 trust			Image/trust.img
 resource		Image/resource.img
-home			Image/home.img
+#home			Image/home.img
 #boot			Image/boot.img
-linuxroot:grow  Image/disk.img
+linuxroot:grow  Image/rootfs.ext2
 #backup			RESERVED
 #update-script	update-script
 #recover-script	recover-script

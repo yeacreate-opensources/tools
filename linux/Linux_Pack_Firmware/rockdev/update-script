@@ -8,8 +8,8 @@ write_image PACKAGE:linuxroot LINUXROOT:
 check_image PACKAGE:linuxroot LINUXROOT:
 
 # Éý¼¶home
-write_image PACKAGE:home HOME:
-check_image PACKAGE:home HOME:
+#write_image PACKAGE:home HOME:
+#check_image PACKAGE:home HOME:
 
 # Éý¼¶boot
 #write_image PACKAGE:boot BOOT:
